@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1de0bccd1a9d46489ff9ed460677f56, type: 3}
-  m_Name: Build1 5
+  m_Script: {fileID: 11500000, guid: a65d239c41bd8b04babb6b63209eec2d, type: 3}
+  m_Name: Timer
   m_EditorClassIdentifier: 
-  value: {x: 4, y: 4, z: 0}
+  value: 60

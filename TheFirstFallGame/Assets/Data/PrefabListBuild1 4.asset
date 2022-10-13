@@ -9,7 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1de0bccd1a9d46489ff9ed460677f56, type: 3}
-  m_Name: Build1 5
+  m_Script: {fileID: 11500000, guid: 5893a3aed8c91de49bb8c7bf2e93409c, type: 3}
+  m_Name: PrefabListBuild1 4
   m_EditorClassIdentifier: 
-  value: {x: 4, y: 4, z: 0}
+  prefab: {fileID: 6024781959918079546, guid: ca68b9cefacc20047a9d6273f764f8ab, type: 3}
+  preFabListList: []

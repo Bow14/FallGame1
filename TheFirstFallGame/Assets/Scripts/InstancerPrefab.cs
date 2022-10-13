@@ -7,11 +7,24 @@ public class InstancerPrefab : ScriptableObject
     //MonoBehavoiur are huge no need to deal with it when you don't have too
 
     public GameObject prefab;
+    public GameObject prefab2;
+    public GameObject prefab3;
+    public GameObject prefab4;
+    public GameObject prefab5;
+
     private int num;
-   
+    public List<PrefabData> preFabList;
+    public List<Vector3Data> preVec;
+
+
     public void CreateInstance()
     {
         Instantiate(prefab);
+        Instantiate(prefab2);
+        Instantiate(prefab3);
+        Instantiate(prefab4);
+        Instantiate(prefab5);
+
     }
 
     public void CreateInstance(Vector3Data obj )

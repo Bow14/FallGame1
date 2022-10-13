@@ -12,4 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8803402a67779f43a9a9ecf0dcdba34, type: 3}
   m_Name: PrefabInstancer
   m_EditorClassIdentifier: 
-  prefab: {fileID: 4887209376698802365, guid: e10e72c98eb757b4789332aa98c07ea9, type: 3}
+  prefab: {fileID: 6024781959918079546, guid: ca68b9cefacc20047a9d6273f764f8ab, type: 3}
+  prefab2: {fileID: 8730949973665044445, guid: be989e90d3abf6c459855636e0b00e83, type: 3}
+  prefab3: {fileID: 4911190410385631075, guid: f928b21f410fb6a488e8aa6bb8099388, type: 3}
+  prefab4: {fileID: 4887209376698802365, guid: e10e72c98eb757b4789332aa98c07ea9, type: 3}
+  prefab5: {fileID: 6796711531589815522, guid: 0c05618bcf78bba49a5c1b542e280216, type: 3}
+  preFabList:
+  - {fileID: 11400000, guid: b87fbc99743e1fc4aac338e8365997ac, type: 2}
+  - {fileID: 11400000, guid: deaf3369399bf7e47b6806f2add25b48, type: 2}
+  - {fileID: 11400000, guid: bf33ed81dc2e7b84c943a45571956e0a, type: 2}
+  - {fileID: 11400000, guid: 021bf5b9f001d97438d8874871a8e804, type: 2}
+  - {fileID: 11400000, guid: cd56f26b5b925864395e392e94658f92, type: 2}
+  preVec:
+  - {fileID: 11400000, guid: 6f8522c096b070b428804d4a6a6498f0, type: 2}
+  - {fileID: 11400000, guid: 61eb31c65291bb74483d914131d59e01, type: 2}
+  - {fileID: 11400000, guid: ddd2850610c62dd4ba8d24c3182fbd84, type: 2}
+  - {fileID: 11400000, guid: 7048c51c9f6a86e4080f26f026a5c531, type: 2}
+  - {fileID: 11400000, guid: 267cfe6bd37b8bc4bb3e8eadd4cd554f, type: 2}
