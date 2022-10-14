@@ -174,8 +174,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37442284229416d4380e6b9b4d953d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  counterNum: {fileID: 11400000, guid: 1f161aa3d7dfe5846a96c50eb77b9f37, type: 2}
   timeCount: 60
   startEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  counterStart:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 1f161aa3d7dfe5846a96c50eb77b9f37, type: 2}
@@ -190,9 +194,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  counterStart:
-    m_PersistentCalls:
-      m_Calls: []
   counterEnd:
     m_PersistentCalls:
       m_Calls: []
@@ -211,8 +212,22 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 1f161aa3d7dfe5846a96c50eb77b9f37, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: -1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  repeatUntilFalse:
+    m_PersistentCalls:
+      m_Calls: []
   canRun: 0
-  counterNum: {fileID: 11400000, guid: 1f161aa3d7dfe5846a96c50eb77b9f37, type: 2}
 --- !u!114 &383814954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,7 +242,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 383814954}
+        m_TargetAssemblyTypeName: TextLableBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 1f161aa3d7dfe5846a96c50eb77b9f37, type: 2}
+          m_ObjectArgumentAssemblyTypeName: IntData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 383814953}
+        m_TargetAssemblyTypeName: TimerScript, Assembly-CSharp
+        m_MethodName: StartCounting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &383814955
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -241,7 +280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -464,6 +503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1611183177}
   - component: {fileID: 1611183178}
+  - component: {fileID: 1611183179}
   m_Layer: 0
   m_Name: InstancerPre
   m_TagString: Untagged
@@ -479,7 +519,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1611183176}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.87421787, y: -0.44700745, z: -1.8583701}
+  m_LocalPosition: {x: -0.01, y: 2.89, z: -1.8583701}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -535,7 +575,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
       - m_Target: {fileID: 11400000, guid: 8fea854d625c733489ac4e0f6516e1ce, type: 2}
         m_TargetAssemblyTypeName: InstancerPrefab, Assembly-CSharp
         m_MethodName: 
@@ -548,9 +588,39 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1611183179}
+        m_TargetAssemblyTypeName: InstancerSpawn, Assembly-CSharp
+        m_MethodName: Spawnrandom
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   canRun: 0
   counterNum: {fileID: 11400000, guid: d38018b01208f10448a24e60181cff4c, type: 2}
   seconds: 3
+--- !u!114 &1611183179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611183176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dfad4cbd67d11e40aa87d63968abc2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabbedData:
+  - {fileID: 6024781959918079546, guid: ca68b9cefacc20047a9d6273f764f8ab, type: 3}
+  - {fileID: 4911190410385631075, guid: f928b21f410fb6a488e8aa6bb8099388, type: 3}
+  - {fileID: 8730949973665044445, guid: be989e90d3abf6c459855636e0b00e83, type: 3}
+  - {fileID: 6796711531589815522, guid: 0c05618bcf78bba49a5c1b542e280216, type: 3}
+  - {fileID: 4887209376698802365, guid: e10e72c98eb757b4789332aa98c07ea9, type: 3}
 --- !u!1 &1631078840
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,7 +672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -645,7 +715,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1631078844}
+        m_TargetAssemblyTypeName: TextLableBehaviour, Assembly-CSharp
+        m_MethodName: UpdateLabel
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: 1f161aa3d7dfe5846a96c50eb77b9f37, type: 2}
+          m_ObjectArgumentAssemblyTypeName: IntData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 0
 --- !u!1 &2146174661
 GameObject:
   m_ObjectHideFlags: 0

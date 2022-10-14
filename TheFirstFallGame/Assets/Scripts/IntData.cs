@@ -1,6 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -33,7 +31,8 @@ public class IntData : ScriptableObject
 
    public void UpdateValue(int num)
    {
-      value += num;
+      
+      value -= num;
    }
 
    

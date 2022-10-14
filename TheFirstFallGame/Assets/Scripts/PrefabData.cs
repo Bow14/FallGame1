@@ -4,7 +4,7 @@ using UnityEngine;
 [CreateAssetMenu]
 public class PrefabData : ScriptableObject
 {
-  public GameObject prefab;
+  public GameObject[] prefabs;
 
   public List<PrefabData> preFabListList;
 

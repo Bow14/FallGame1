@@ -5,14 +5,13 @@ using UnityEngine.Events;
 
 public class TimerScript : MonoBehaviour
 {
-
+    public IntData counterNum;
     public int timeCount = 60;
     private WaitForSeconds wfsObj;
     
-    public UnityEvent startEvent, counterStart, counterEnd, repeatCount;
+    public UnityEvent startEvent, counterStart, counterEnd, repeatCount, repeatUntilFalse;
     public bool canRun;
     
-    public IntData counterNum;
     
     public bool CanRun
     {
@@ -24,6 +23,7 @@ public class TimerScript : MonoBehaviour
     {
         startEvent.Invoke();
         wfsObj = new WaitForSeconds(timeCount);
+        InvokeRepeating("Subtract", 1, 1);
         
     }
     
@@ -46,5 +46,24 @@ public class TimerScript : MonoBehaviour
         }
         counterEnd.Invoke();
    }
+    public void StartRepeatUntilFalse()
+    {
+        canRun = true;
+        StartCoroutine(RepeatUntilFalse());
+    }
+
+    private IEnumerator RepeatUntilFalse()
+    {
+        while (canRun)
+        {
+            yield return wfsObj;
+            repeatUntilFalse.Invoke();
+        }
+    }
+
+    void Subtract()
+    {
+        timeCount -= 1;
+    }
 
 }
