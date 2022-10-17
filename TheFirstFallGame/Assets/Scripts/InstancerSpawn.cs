@@ -6,12 +6,14 @@ public class InstancerSpawn : MonoBehaviour
 {
 
     public GameObject[] prefabbedData;
+    public Vector3Data spawnPos;
     
 
     public void Spawnrandom()
     {
         int obstacal = Random.Range(0, prefabbedData.Length);
         Instantiate(prefabbedData[obstacal]);
+        
     }
 
     // public void StartSpawning()

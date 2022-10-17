@@ -6,20 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6b399393-d054-4606-b50b-ccffaf56ccbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TheFirstFallGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheFirstFallGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Build1 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Build1 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Build1 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Build1 3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Build1 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Build1 4.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Build1 5.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Build1 5.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Build1 6.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Build1 6.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Build1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Build1.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building4.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building6.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PrefabData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PrefabData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/InstancerSpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/InstancerSpawn.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +75,7 @@
       <workItem from="1665608722457" duration="14729000" />
       <workItem from="1665701956253" duration="824000" />
       <workItem from="1665703068421" duration="5446000" />
+      <workItem from="1665960139824" duration="1921000" />
     </task>
     <servers />
   </component>
