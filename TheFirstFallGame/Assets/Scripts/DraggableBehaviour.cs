@@ -1,4 +1,5 @@
 
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
@@ -12,7 +13,7 @@ public class DraggableBehaviour : MonoBehaviour
     public bool dragabble;
     public Vector3 position;
     public Vector3 offSet;
-    public UnityEvent startDragEvent, endDragEvent;
+    public UnityEvent startDragEvent, endDragEvent, OnCollisonEvent;
     
     void Start()
     {
@@ -40,5 +41,15 @@ public class DraggableBehaviour : MonoBehaviour
     {
         dragabble = false;
         endDragEvent.Invoke();
+    }
+    
+    // public void OnTriggerEnter(Collider other)
+    //  {
+    //      Destroy(gameObject);
+    //  }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        OnCollisonEvent.Invoke();
     }
 }
