@@ -6,18 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6b399393-d054-4606-b50b-ccffaf56ccbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TheFirstFallGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheFirstFallGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building6.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animation/UiAnimationController.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animation/UiAnimationController.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DestoryBehavoir.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DestoryBehavoir.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DraggableBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DraggableBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameAction.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameAction.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameActionHandler.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +74,7 @@
       <workItem from="1666155297760" duration="597000" />
       <workItem from="1666236423376" duration="3642000" />
       <workItem from="1666391384655" duration="3526000" />
+      <workItem from="1666835622905" duration="1400000" />
     </task>
     <servers />
   </component>
