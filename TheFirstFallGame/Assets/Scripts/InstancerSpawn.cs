@@ -8,6 +8,8 @@ public class InstancerSpawn : MonoBehaviour
 {
 
     public GameObject[] prefabbedData;
+
+    public GameObject playerPrefab;
     //public List<GameObject> prefabbedData = new List<GameObject>();
     public Vector3DataList spawnPos;
     
@@ -21,6 +23,8 @@ public class InstancerSpawn : MonoBehaviour
         //spawnPos, quaternion.identity
         
     }
+    
+
 
     // public void StartSpawning()
     // {
