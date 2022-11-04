@@ -35,5 +35,10 @@ public class IntData : ScriptableObject
       value -= num;
    }
 
-   
+   public void AddValue(int num)
+   {
+      value += num;
+   }
+
+
 }

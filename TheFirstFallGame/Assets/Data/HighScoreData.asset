@@ -9,12 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fde5436be952dfd4a9f2190a201412d7, type: 3}
-  m_Name: SpawnList
+  m_Script: {fileID: 11500000, guid: a65d239c41bd8b04babb6b63209eec2d, type: 3}
+  m_Name: HighScoreData
   m_EditorClassIdentifier: 
-  vector3List:
-  - {x: -4, y: 8, z: 0}
-  - {x: -1, y: 10, z: 0}
-  - {x: 5, y: 6, z: 0}
-  - {x: -3, y: 7, z: 0}
-  - {x: 8, y: 9, z: 0}
+  value: 3

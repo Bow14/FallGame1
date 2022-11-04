@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 631533292555921931}
   - component: {fileID: 8499600857382167086}
   - component: {fileID: -6400264390998633}
+  - component: {fileID: 6280232985183526779}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -322,3 +323,31 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &6280232985183526779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652141926381332157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a859f9ef90a444c92de3a3ffd0e69e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: {fileID: 11400000, guid: 3e2ac6314990afe4f8305ff733187816, type: 2}
+  collectionEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 3e2ac6314990afe4f8305ff733187816, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: AddValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
