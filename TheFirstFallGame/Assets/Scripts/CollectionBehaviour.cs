@@ -8,6 +8,7 @@ public class CollectionBehaviour : MonoBehaviour
 {
     public IntData points;
     public UnityEvent collectionEvent;
+    public 
     
     void Start()
     {
@@ -16,6 +17,8 @@ public class CollectionBehaviour : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        collectionEvent.Invoke();   
+        collectionEvent.Invoke();
+        Debug.Log("Ive touched player");
+        
     }
 }

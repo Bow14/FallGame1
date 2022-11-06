@@ -18,6 +18,7 @@ public class DraggableBehaviour : MonoBehaviour
     void Start()
     {
         cameraObj = Camera.main;
+        //Physics.IgnoreLayerCollision(0, 8);
     }
 
     public IEnumerator OnMouseDown()
@@ -50,6 +51,7 @@ public class DraggableBehaviour : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        
         OnCollisonEvent.Invoke();
     }
 }

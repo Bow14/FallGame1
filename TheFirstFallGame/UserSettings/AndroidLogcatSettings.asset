@@ -3,35 +3,11 @@
     "m_SelectedPackage": {
         "deviceId": "R5CT70EL5TJ",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 28825,
+        "processId": 23747,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "R5CT70EL5TJ",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 31545,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CT70EL5TJ",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 3017,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CT70EL5TJ",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 5974,
-            "exited": true
-        },
-        {
-            "deviceId": "R5CT70EL5TJ",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 6820,
-            "exited": true
-        },
         {
             "deviceId": "R5CT70EL5TJ",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
@@ -42,18 +18,36 @@
             "deviceId": "R5CT70EL5TJ",
             "name": "com.zhiliaoapp.musically",
             "processId": 26775,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R5CT70EL5TJ",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 28095,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "R5CT70EL5TJ",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 28825,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CT70EL5TJ",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 11204,
+            "exited": true
+        },
+        {
+            "deviceId": "R5CT70EL5TJ",
+            "name": "com.zhiliaoapp.musically",
+            "processId": 14694,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CT70EL5TJ",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 23747,
             "exited": false
         }
     ],
