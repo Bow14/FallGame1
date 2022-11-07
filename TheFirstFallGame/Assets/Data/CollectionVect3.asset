@@ -13,7 +13,9 @@ MonoBehaviour:
   m_Name: CollectionVect3
   m_EditorClassIdentifier: 
   vector3List:
-  - {x: -4, y: 4, z: 0}
-  - {x: 6, y: 2, z: 0}
+  - {x: -3, y: 4, z: 0}
+  - {x: 6, y: 6, z: 0}
   - {x: 2, y: 6, z: 0}
   - {x: -1, y: 5, z: 0}
+  - {x: 0, y: 7, z: 0}
+  - {x: -3, y: 7, z: 0}
