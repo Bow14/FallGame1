@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R5CT70EL5TJ",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 25798,
+        "processId": 27155,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -54,6 +54,12 @@
             "deviceId": "R5CT70EL5TJ",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 25798,
+            "exited": false
+        },
+        {
+            "deviceId": "R5CT70EL5TJ",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 27155,
             "exited": false
         }
     ],
