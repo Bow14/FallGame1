@@ -130,8 +130,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d496a452c4658de4c809b0f05be272fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  powerUp: {fileID: 0}
   dragabble: 0
-  powerUpOn: 0
   position: {x: 0, y: 0, z: 0}
   offSet: {x: 0, y: 0, z: 0}
   startDragEvent:

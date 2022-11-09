@@ -6,10 +6,13 @@ using UnityEngine.Events;
 public class TimerScript : MonoBehaviour
 {
     public IntData counterNum;
+    public IntData collectionPoints;
     public int timeCount = 60;
     private WaitForSeconds wfsObj;
+    public ShieldBehaviour powerUp;
     
     public UnityEvent startEvent, counterStart, counterEnd, repeatCount, repeatUntilFalse;
+    public UnityEvent shieldEvent;
     public bool canRun;
     
     
@@ -69,7 +72,14 @@ public class TimerScript : MonoBehaviour
 
     private IEnumerator ShieldCountDown()
     {
-        yield return wfsObj;
+        while (powerUp.powerUpOn == true)
+        {
+            repeatCount.Invoke();
+            collectionPoints.value--;
+            yield return wfsObj;
+
+            
+        }
     }
 
 }

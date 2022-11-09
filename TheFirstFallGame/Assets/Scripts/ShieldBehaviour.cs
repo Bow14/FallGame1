@@ -13,7 +13,7 @@ public class ShieldBehaviour : MonoBehaviour
     if ((collectionPoints.value == 10) && (other.gameObject.CompareTag("Vial")))
     {
       powerUpOn = true;
-      Debug.Log("I am on");
+      //Debug.Log("I am on");
 
     }
   }
