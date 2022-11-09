@@ -7,20 +7,12 @@
     <list default="true" id="6b399393-d054-4606-b50b-ccffaf56ccbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TheFirstFallGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheFirstFallGame/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Data/CollectionPoints.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/CollectionPoints.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SpawnList.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SpawnList.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building1.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building3.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building4.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building6.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Collectible.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Collectible.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectionBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectionBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DraggableBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DraggableBehaviour.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/AndroidLogcatSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/AndroidLogcatSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +85,8 @@
       <workItem from="1667518935584" duration="1427000" />
       <workItem from="1667610647162" duration="595000" />
       <workItem from="1667699074120" duration="2679000" />
+      <workItem from="1667890687975" duration="594000" />
+      <workItem from="1667950426597" duration="4361000" />
     </task>
     <servers />
   </component>

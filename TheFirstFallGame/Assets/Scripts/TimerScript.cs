@@ -26,6 +26,7 @@ public class TimerScript : MonoBehaviour
         InvokeRepeating("Subtract", 1, 1);
         
     }
+    // ref my shield behaviour script here and make it countdown for it to turn off also using == true but we have all the code
     
     public void StartCounting()
     {
@@ -64,6 +65,11 @@ public class TimerScript : MonoBehaviour
     void Subtract()
     {
         timeCount -= 1;
+    }
+
+    private IEnumerator ShieldCountDown()
+    {
+        yield return wfsObj;
     }
 
 }

@@ -8,12 +8,13 @@ public class DraggableBehaviour : MonoBehaviour
 {
     //    //AnthonyRomrell Module  Matching game 1 code
 
-    
+    public ShieldBehaviour powerUp;
     private Camera cameraObj;
     public bool dragabble;
     public Vector3 position;
     public Vector3 offSet;
     public UnityEvent startDragEvent, endDragEvent, OnCollisonEvent;
+    public UnityEvent shieldEvent;
     
     void Start()
     {
@@ -49,9 +50,17 @@ public class DraggableBehaviour : MonoBehaviour
     //      Destroy(gameObject);
     //  }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter(Collision other)
     {
         
-        OnCollisonEvent.Invoke();
+        if (powerUp.powerUpOn == true)
+        {
+            shieldEvent.Invoke();
+            
+        }
+        else
+        {
+            OnCollisonEvent.Invoke();
+        }
     }
 }
