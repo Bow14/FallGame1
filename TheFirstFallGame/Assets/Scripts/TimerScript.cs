@@ -7,7 +7,8 @@ public class TimerScript : MonoBehaviour
 {
     public IntData counterNum;
     public IntData collectionPoints;
-    public int timeCount = 60;
+    public IntData shieldCount;
+    public int timeCount = 5;
     private WaitForSeconds wfsObj;
     public ShieldBehaviour powerUp;
     
@@ -27,7 +28,8 @@ public class TimerScript : MonoBehaviour
         startEvent.Invoke();
         wfsObj = new WaitForSeconds(timeCount);
         InvokeRepeating("Subtract", 1, 1);
-        
+        shieldCount.value = timeCount;
+
     }
     // ref my shield behaviour script here and make it countdown for it to turn off also using == true but we have all the code
     
@@ -70,16 +72,24 @@ public class TimerScript : MonoBehaviour
         timeCount -= 1;
     }
 
-    private IEnumerator ShieldCountDown()
+    public void CallingShieldCount()
     {
-        while (powerUp.powerUpOn == true)
+        StartCoroutine(ShieldCountDown());
+    }
+    public IEnumerator ShieldCountDown()
+    {
+        shieldCount.value = timeCount;
+        while (shieldCount.value > 0)
         {
-            repeatCount.Invoke();
-            collectionPoints.value--;
-            yield return wfsObj;
+            shieldEvent.Invoke();
+            yield return new WaitForSeconds(1.0f);
+            shieldCount.value--;
 
             
         }
+
+        collectionPoints.value = 0;
+        powerUp.powerUpOn = false;
     }
 
 }

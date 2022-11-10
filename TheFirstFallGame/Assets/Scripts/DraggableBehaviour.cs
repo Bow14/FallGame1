@@ -53,14 +53,16 @@ public class DraggableBehaviour : MonoBehaviour
     private void OnCollisionEnter(Collision other)
     {
         
-        // if (powerUp.powerUpOn == true)
-        // {
-        //     shieldEvent.Invoke();
-        //     
-        // }
-        //else
-        {
-            OnCollisonEvent.Invoke();
-        }
+         if (powerUp.powerUpOn == true)
+         {
+             shieldEvent.Invoke();
+             
+         }
+
+         if (powerUp.powerUpOn == false)
+         {
+             OnCollisonEvent.Invoke();
+         }
+        
     }
 }

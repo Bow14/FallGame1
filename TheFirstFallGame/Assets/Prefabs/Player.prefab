@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 8499600857382167086}
   - component: {fileID: -6400264390998633}
   - component: {fileID: 3039319607369859394}
+  - component: {fileID: -6059621384845493419}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -205,19 +206,7 @@ MonoBehaviour:
         m_CallState: 2
   shieldEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 652141926381332157}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SendMessage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Thing blocked
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &631533292555921931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,3 +342,66 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   powerUpOn: 0
   collectionPoints: {fileID: 11400000, guid: 3e2ac6314990afe4f8305ff733187816, type: 2}
+  shieldCountDown:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -6059621384845493419}
+        m_TargetAssemblyTypeName: TimerScript, Assembly-CSharp
+        m_MethodName: CallingShieldCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &-6059621384845493419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652141926381332157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37442284229416d4380e6b9b4d953d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counterNum: {fileID: 11400000, guid: d38018b01208f10448a24e60181cff4c, type: 2}
+  collectionPoints: {fileID: 11400000, guid: 3e2ac6314990afe4f8305ff733187816, type: 2}
+  shieldCount: {fileID: 11400000, guid: 41c863bee043a0e4dbace838ff061017, type: 2}
+  timeCount: 5
+  powerUp: {fileID: 0}
+  startEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  counterStart:
+    m_PersistentCalls:
+      m_Calls: []
+  counterEnd:
+    m_PersistentCalls:
+      m_Calls: []
+  repeatCount:
+    m_PersistentCalls:
+      m_Calls: []
+  repeatUntilFalse:
+    m_PersistentCalls:
+      m_Calls: []
+  shieldEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 652141926381332157}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SendMessage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: It worked!
+          m_BoolArgument: 0
+        m_CallState: 2
+  canRun: 0
