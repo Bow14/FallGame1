@@ -8,12 +8,13 @@ public class TimerScript : MonoBehaviour
     public IntData counterNum;
     public IntData collectionPoints;
     public IntData shieldCount;
-    public int timeCount = 5;
+    public int timeCount = 10;
     private WaitForSeconds wfsObj;
     public ShieldBehaviour powerUp;
+    public DraggableBehaviour draggableBehaviour;
     
     public UnityEvent startEvent, counterStart, counterEnd, repeatCount, repeatUntilFalse;
-    public UnityEvent shieldEvent;
+    public UnityEvent shieldEvent, turnOffShieldEvent;
     public bool canRun;
     
     
@@ -82,14 +83,19 @@ public class TimerScript : MonoBehaviour
         while (shieldCount.value > 0)
         {
             shieldEvent.Invoke();
-            yield return new WaitForSeconds(1.0f);
             shieldCount.value--;
+            draggableBehaviour.collectionPoints.value--;
+            Debug.Log("WhileLoopRunning");
+            yield return new WaitForSeconds(1.0f);
 
             
         }
-
-        collectionPoints.value = 0;
+        //collectionPoints.value = 0;
+        draggableBehaviour.OnCollisonEvent.Invoke();
+        Debug.Log("FalseI");
         powerUp.powerUpOn = false;
+
+        
     }
 
 }

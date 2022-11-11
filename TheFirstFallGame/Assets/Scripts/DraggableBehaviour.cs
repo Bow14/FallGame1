@@ -15,6 +15,8 @@ public class DraggableBehaviour : MonoBehaviour
     public Vector3 offSet;
     public UnityEvent startDragEvent, endDragEvent, OnCollisonEvent;
     public UnityEvent shieldEvent;
+    public IntData collectionPoints;
+
     
     void Start()
     {
@@ -52,17 +54,17 @@ public class DraggableBehaviour : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        
-         if (powerUp.powerUpOn == true)
-         {
-             shieldEvent.Invoke();
-             
-         }
+        if (collectionPoints.value == 10)
+        {
+            shieldEvent.Invoke();
+        }
 
-         if (powerUp.powerUpOn == false)
-         {
-             OnCollisonEvent.Invoke();
-         }
+        if (collectionPoints.value < 10)
+        {
+            OnCollisonEvent.Invoke();
+        }
+       
+         
         
     }
 }

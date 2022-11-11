@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerUp: {fileID: 0}
-  dragabble: 0
+  dragabble: 1
   position: {x: 0, y: 0, z: 0}
   offSet: {x: 0, y: 0, z: 0}
   startDragEvent:
@@ -206,7 +206,20 @@ MonoBehaviour:
         m_CallState: 2
   shieldEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -6059621384845493419}
+        m_TargetAssemblyTypeName: TimerScript, Assembly-CSharp
+        m_MethodName: CallingShieldCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  collectionPoints: {fileID: 11400000, guid: 3e2ac6314990afe4f8305ff733187816, type: 2}
 --- !u!114 &631533292555921931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,7 +386,7 @@ MonoBehaviour:
   collectionPoints: {fileID: 11400000, guid: 3e2ac6314990afe4f8305ff733187816, type: 2}
   shieldCount: {fileID: 11400000, guid: 41c863bee043a0e4dbace838ff061017, type: 2}
   timeCount: 5
-  powerUp: {fileID: 0}
+  powerUp: {fileID: 3039319607369859394}
   startEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -402,6 +415,21 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: It worked!
+          m_BoolArgument: 0
+        m_CallState: 2
+  turnOffShieldEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 3e2ac6314990afe4f8305ff733187816, type: 2}
+        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
+        m_MethodName: UpdateValue
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
   canRun: 0
