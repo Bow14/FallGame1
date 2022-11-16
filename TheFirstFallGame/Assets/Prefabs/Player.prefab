@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d496a452c4658de4c809b0f05be272fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUp: {fileID: 0}
+  powerUp: {fileID: 3039319607369859394}
   dragabble: 1
   position: {x: 0, y: 0, z: 0}
   offSet: {x: 0, y: 0, z: 0}
@@ -370,6 +370,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  draggableBehaviour: {fileID: 652141926381332156}
 --- !u!114 &-6059621384845493419
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -387,6 +388,7 @@ MonoBehaviour:
   shieldCount: {fileID: 11400000, guid: 41c863bee043a0e4dbace838ff061017, type: 2}
   timeCount: 5
   powerUp: {fileID: 3039319607369859394}
+  draggableBehaviour: {fileID: 652141926381332156}
   startEvent:
     m_PersistentCalls:
       m_Calls: []

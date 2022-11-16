@@ -16,6 +16,7 @@ public class DraggableBehaviour : MonoBehaviour
     public UnityEvent startDragEvent, endDragEvent, OnCollisonEvent;
     public UnityEvent shieldEvent;
     public IntData collectionPoints;
+    
 
     
     void Start()
@@ -56,15 +57,22 @@ public class DraggableBehaviour : MonoBehaviour
     {
         if (collectionPoints.value == 10)
         {
-            shieldEvent.Invoke();
+            shieldEvent.Invoke(); //Gotta make it where the shieldevent last longer than a second
         }
 
-        if (collectionPoints.value < 10)
+        if (collectionPoints.value < 10 && other.gameObject.CompareTag("Buildings"))
         {
+            
             OnCollisonEvent.Invoke();
+        }
+        if (other.gameObject.CompareTag("Vial"))
+        {
+            shieldEvent.Invoke();
         }
        
          
         
     }
+
+  
 }

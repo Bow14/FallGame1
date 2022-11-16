@@ -13,7 +13,7 @@ public class ShieldBehaviour : MonoBehaviour
 
   private void OnTriggerEnter(Collider other)
   {
-    if ((collectionPoints.value == 9) && (other.gameObject.CompareTag("Vial")))
+    if ((collectionPoints.value == 10) && (other.gameObject.CompareTag("Vial")))
     {
       powerUpOn = true;
       shieldCountDown.Invoke();
