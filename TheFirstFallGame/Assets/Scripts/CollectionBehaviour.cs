@@ -8,7 +8,11 @@ public class CollectionBehaviour : MonoBehaviour
 {
     public IntData points;
     public UnityEvent collectionEvent;
-    public 
+    public IntData collectionPoints;
+    public UnityEvent shieldEvent;
+
+
+    
     
     void Start()
     {
@@ -20,5 +24,17 @@ public class CollectionBehaviour : MonoBehaviour
         collectionEvent.Invoke();
         Debug.Log("Ive touched player");
         
+        // if (other.gameObject.CompareTag("Vial"))
+        // {
+        //     shieldEvent.Invoke();
+        // }
+        
+        if (collectionPoints.value == 10)
+        {
+            shieldEvent.Invoke(); //Gotta make it where the shieldevent last longer than a second
+        }
+
+
+
     }
 }

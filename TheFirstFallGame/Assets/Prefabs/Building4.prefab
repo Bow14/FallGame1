@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -1426752882004624381}
   - component: {fileID: -1292315500188686806}
   - component: {fileID: -7115993046591230113}
+  - component: {fileID: -4836421349231247769}
   m_Layer: 6
   m_Name: Building4
   m_TagString: Buildings
@@ -162,3 +163,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1407633, y: 0.99999994, z: 0.2}
   m_Center: {x: -0.011220488, y: 0, z: 0}
+--- !u!65 &-4836421349231247769
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6024781959918079546}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.3749999, y: 1.625, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}

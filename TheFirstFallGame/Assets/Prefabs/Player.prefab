@@ -204,21 +204,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  shieldEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: -6059621384845493419}
-        m_TargetAssemblyTypeName: TimerScript, Assembly-CSharp
-        m_MethodName: CallingShieldCount
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
   collectionPoints: {fileID: 11400000, guid: 3e2ac6314990afe4f8305ff733187816, type: 2}
 --- !u!114 &631533292555921931
 MonoBehaviour:
@@ -357,19 +342,7 @@ MonoBehaviour:
   collectionPoints: {fileID: 11400000, guid: 3e2ac6314990afe4f8305ff733187816, type: 2}
   shieldCountDown:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: -6059621384845493419}
-        m_TargetAssemblyTypeName: TimerScript, Assembly-CSharp
-        m_MethodName: CallingShieldCount
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   draggableBehaviour: {fileID: 652141926381332156}
 --- !u!114 &-6059621384845493419
 MonoBehaviour:

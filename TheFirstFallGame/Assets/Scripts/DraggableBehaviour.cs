@@ -14,7 +14,6 @@ public class DraggableBehaviour : MonoBehaviour
     public Vector3 position;
     public Vector3 offSet;
     public UnityEvent startDragEvent, endDragEvent, OnCollisonEvent;
-    public UnityEvent shieldEvent;
     public IntData collectionPoints;
     
 
@@ -53,24 +52,15 @@ public class DraggableBehaviour : MonoBehaviour
     //      Destroy(gameObject);
     //  }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnTriggerEnter(Collider other)
     {
-        if (collectionPoints.value == 10)
-        {
-            shieldEvent.Invoke(); //Gotta make it where the shieldevent last longer than a second
-        }
-
-        if (collectionPoints.value < 10 && other.gameObject.CompareTag("Buildings"))
+     
+        if (collectionPoints.value < 10 && other.CompareTag("Buildings"))
         {
             
             OnCollisonEvent.Invoke();
         }
-        if (other.gameObject.CompareTag("Vial"))
-        {
-            shieldEvent.Invoke();
-        }
-       
-         
+     
         
     }
 

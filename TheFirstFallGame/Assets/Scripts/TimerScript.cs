@@ -76,10 +76,11 @@ public class TimerScript : MonoBehaviour
     public void CallingShieldCount()
     {
         StartCoroutine(ShieldCountDown());
+        Debug.Log("Calling");
     }
     public IEnumerator ShieldCountDown()
     {
-        shieldCount.value = timeCount;
+        shieldCount.value = draggableBehaviour.collectionPoints.value;
         while (shieldCount.value > 0)
         {
             shieldEvent.Invoke();

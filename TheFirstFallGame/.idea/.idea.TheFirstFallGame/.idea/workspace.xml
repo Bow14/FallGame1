@@ -6,14 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="6b399393-d054-4606-b50b-ccffaf56ccbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TheFirstFallGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheFirstFallGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/CollectionPoints.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/CollectionPoints.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building2.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building3.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building4.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building6.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Collectible.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Collectible.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectionBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectionBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DraggableBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DraggableBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShieldBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ShieldBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +98,7 @@
       <workItem from="1668136881432" duration="658000" />
       <workItem from="1668225842694" duration="759000" />
       <workItem from="1668551574071" duration="2496000" />
+      <workItem from="1668643321004" duration="1722000" />
     </task>
     <servers />
   </component>
