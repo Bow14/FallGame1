@@ -15,12 +15,17 @@ public class DraggableBehaviour : MonoBehaviour
     public Vector3 offSet;
     public UnityEvent startDragEvent, endDragEvent, OnCollisonEvent;
     public IntData collectionPoints;
+    public Vector3Data playerSpot;
+    public GameObject player;
+    public Vector3 theSpot;
+    
     
 
     
     void Start()
     {
         cameraObj = Camera.main;
+        theSpot = new Vector3(player.transform.position.x, player.transform.position.y, player.transform.position.z);
         //Physics.IgnoreLayerCollision(0, 8);
     }
 
@@ -45,6 +50,15 @@ public class DraggableBehaviour : MonoBehaviour
     {
         dragabble = false;
         endDragEvent.Invoke();
+    }
+
+    public void PlayerMove()
+    {
+        Debug.Log("TheSpot");
+        dragabble = false;   
+        player.transform.position = theSpot;
+        
+
     }
     
     // public void OnTriggerEnter(Collider other)
