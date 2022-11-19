@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1de0bccd1a9d46489ff9ed460677f56, type: 3}
   m_Name: PlayerSpot
   m_EditorClassIdentifier: 
-  value: {x: -0.05891138, y: -4.273754, z: 0}
+  value: {x: -1, y: -4, z: 0}

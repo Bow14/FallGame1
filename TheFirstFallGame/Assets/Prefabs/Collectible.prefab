@@ -185,9 +185,9 @@ MonoBehaviour:
   shieldEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: -6059621384845493419, guid: bcb1b0d7ca9bd29479c3cbcbe5b1ae4f, type: 3}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: TimerScript, Assembly-CSharp
-        m_MethodName: CallingShieldCount
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -197,6 +197,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  player: {fileID: 0}
 --- !u!114 &-6695275445299452892
 MonoBehaviour:
   m_ObjectHideFlags: 0
