@@ -192,7 +192,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   collectionPoints: {fileID: 11400000, guid: 3e2ac6314990afe4f8305ff733187816, type: 2}
-  playerSpot: {fileID: 11400000, guid: d8fc7c75df17f1243b7e558623c4805f, type: 2}
   player: {fileID: 9153917244061043357}
   theSpot: {x: -1, y: -4, z: 0}
 --- !u!114 &9153917244061043330
@@ -339,6 +338,7 @@ MonoBehaviour:
   timeCount: 5
   powerUp: {fileID: 9153917244061043359}
   draggableBehaviour: {fileID: 9153917244061043331}
+  player: {fileID: 0}
   startEvent:
     m_PersistentCalls:
       m_Calls: []

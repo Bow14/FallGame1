@@ -33,7 +33,7 @@ public class CollectionBehaviour : MonoBehaviour
         
         if (collectionPoints.value == 10)
         {
-            shieldEvent.Invoke(); //Gotta make it where the shieldevent last longer than a second
+           // shieldEvent.Invoke(); //Gotta make it where the shieldevent last longer than a second
             
         }
 

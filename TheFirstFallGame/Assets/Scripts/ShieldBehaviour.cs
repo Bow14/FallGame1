@@ -10,13 +10,15 @@ public class ShieldBehaviour : MonoBehaviour
   public IntData collectionPoints;
   public UnityEvent shieldCountDown;
   public DraggableBehaviour draggableBehaviour;
+  public TimerScript calling;
 
-  private void OnTriggerEnter(Collider other)
+  public void OnTriggerEnter(Collider other)
   {
-    if ((collectionPoints.value == 10) && (other.CompareTag("Vial")))
+    if ((collectionPoints.value >= 10) && (other.CompareTag("Vial")))
     {
       powerUpOn = true;
-      shieldCountDown.Invoke();
+      //shieldCountDown.Invoke();
+      calling.CallingShieldCount();
       
       //Debug.Log("I am on");
 
