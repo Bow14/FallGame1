@@ -8,11 +8,12 @@ public class TimerScript : MonoBehaviour
     public IntData counterNum;
     public IntData collectionPoints;
     public IntData shieldCount;
-    public int timeCount = 10;
+    public int timeCount = 5;
     private WaitForSeconds wfsObj;
     public ShieldBehaviour powerUp;
     public DraggableBehaviour draggableBehaviour;
     public GameObject player;
+    public SpriteRenderer shield;
     
     public UnityEvent startEvent, counterStart, counterEnd, repeatCount, repeatUntilFalse;
     public UnityEvent shieldEvent, turnOffShieldEvent;
@@ -89,12 +90,13 @@ public class TimerScript : MonoBehaviour
             shieldCount.value-= 1;
             //collectionPoints.value-= 1;
             Debug.Log("WhileLoopRunning");
-            
+            shield.color = Color.green;
 
-            
+
         }
         collectionPoints.value = 0;
-        draggableBehaviour.OnCollisonEvent.Invoke();
+        shield.color = Color.white;
+        //draggableBehaviour.OnCollisonEvent.Invoke();
         Debug.Log("FalseI");
         powerUp.powerUpOn = false;
 
