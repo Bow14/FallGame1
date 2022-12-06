@@ -78,7 +78,7 @@ public class TimerScript : MonoBehaviour
     public void CallingShieldCount()
     {
         StartCoroutine(ShieldCountDown());
-        Debug.Log("Calling");
+        //Debug.Log("Calling");
     }
     public IEnumerator ShieldCountDown()
     {
@@ -89,7 +89,7 @@ public class TimerScript : MonoBehaviour
             shieldEvent.Invoke();
             shieldCount.value-= 1;
             //collectionPoints.value-= 1;
-            Debug.Log("WhileLoopRunning");
+            //Debug.Log("WhileLoopRunning");
             shield.color = Color.green;
 
 
@@ -97,7 +97,7 @@ public class TimerScript : MonoBehaviour
         collectionPoints.value = 0;
         shield.color = Color.white;
         //draggableBehaviour.OnCollisonEvent.Invoke();
-        Debug.Log("FalseI");
+        //Debug.Log("FalseI");
         powerUp.powerUpOn = false;
 
         

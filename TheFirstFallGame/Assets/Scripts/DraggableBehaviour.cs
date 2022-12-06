@@ -55,8 +55,8 @@ public class DraggableBehaviour : MonoBehaviour
     {
         
         player.transform.position = theSpot;
-        Debug.Log("TheSpot");
-        Debug.Log(player);
+        //Debug.Log("TheSpot");
+        //Debug.Log(player);
         //dragabble = false;   
         
         

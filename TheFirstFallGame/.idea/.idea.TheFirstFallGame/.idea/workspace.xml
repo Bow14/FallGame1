@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6b399393-d054-4606-b50b-ccffaf56ccbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.TheFirstFallGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TheFirstFallGame/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Building6.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Building6.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectionBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CollectionBehaviour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DraggableBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DraggableBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TimerScript.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +97,7 @@
       <workItem from="1669074871873" duration="2505000" />
       <workItem from="1669600753878" duration="1151000" />
       <workItem from="1669686278514" duration="5504000" />
+      <workItem from="1670299956800" duration="683000" />
     </task>
     <servers />
   </component>

@@ -24,7 +24,7 @@ public class CollectionBehaviour : MonoBehaviour
     public void OnTriggerEnter(Collider other)
     {
         collectionEvent.Invoke();
-        Debug.Log("Ive touched player");
+        //Debug.Log("Ive touched player");
         
         // if (other.gameObject.CompareTag("Vial"))
         // {
